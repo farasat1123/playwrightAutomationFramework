@@ -55,6 +55,18 @@ Playwright requires browser binaries to be installed. Run the following command 
 npx playwright install
 ```
 
+### Necessary Cucumber Libraries
+- @cucumber/cucumber: This is the core Cucumber library for defining and running tests.
+- @cucumber/pretty-formatter: Provides a more readable format for test output.
+- @playwright/test: Playwright’s own testing framework which integrates well with Cucumber.
+- @cucumber/cucumber-html-reporter: For generating HTML reports from Cucumber test results.
+
+### Installation Instructions
+Add the following dependencies to your package.json file or install them directly using npm:
+```
+npm install @cucumber/cucumber @cucumber/pretty-formatter @playwright/test @cucumber/cucumber-html-reporter
+```
+
 ### Set Up VS Code
 - Open VS Code.
 - Navigate to File > Open Folder and select the project directory.
