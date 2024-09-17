@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cucumber-js"
+    "test": "npx cucumber-js --format json:cucumber_report.json",
+    "report": "node reporter-config.js",
+    "test:full": "npm run test && npm run report"
   },
   "devDependencies": {
     "@cucumber/cucumber": "^11.0.1",
     "@playwright/test": "^1.47.1",
-    "csv-parse": "^5.5.6"
+    "csv-parse": "^5.5.6",
+    "cucumber-html-reporter": "^7.1.1"
   },
   "dependencies": {
     "papaparse": "^5.4.1",
