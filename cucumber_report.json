@@ -1,0 +1,84 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "csv-download;download-a-csv-file",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Download a CSV file",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I am on the table data download demo page",
+            "match": {
+              "location": "features\\step_definitions\\downloadSteps.js:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 14473501100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I click the CSV download button",
+            "match": {
+              "location": "features\\step_definitions\\downloadSteps.js:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 628417000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "the file should be downloaded successfully",
+            "match": {
+              "location": "features\\step_definitions\\downloadSteps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1772000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 7,
+            "name": "the file content should be correct",
+            "match": {
+              "location": "features\\step_definitions\\downloadSteps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51473899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 905317200
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "csv-download",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "CSV Download",
+    "tags": [],
+    "uri": "features\\download.feature"
+  }
+]
